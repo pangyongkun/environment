@@ -10,7 +10,7 @@ mysql版本：5.7.18
 	MYSQL_HOME
 如图：  
 
-![Alt path]('mysql_install_1.png')  
+![Alt path](mysql_install_1.png)  
 
 path中新增：
 
@@ -18,7 +18,7 @@ path中新增：
 
 如图：  
 
-![Alt path]('mysql_install_2.png')
+![Alt path](mysql_install_2.png)
 
 
 ##	3.在解压目录中新建my.ini文件
@@ -43,7 +43,7 @@ path中新增：
 	%MYSQL_HOME%\bin\mysqld.exe
 经过这一步后mysql目录下的结构为：
 
-![Alt path]('mysql_install_3.png')
+![Alt path](mysql_install_3.png)
 
 黑色标注的是我新加的文件夹和文件
 
@@ -52,7 +52,7 @@ path中新增：
 
 	使用win+x打开
 
-![Alt path]('mysql_install_4.png')
+![Alt path](mysql_install_4.png)
 
 ###	2) 进入到解压目录中bin文件夹
 执行：  
@@ -60,17 +60,17 @@ path中新增：
 	 mysqld.exe -install
 	 mysqld --initialize-insecure --user=mysql
 
-![Alt path]('mysql_install_5.png')
+![Alt path](mysql_install_5.png)
 
 执行第二部的时候报错了是因为我开始没有穿件data文件夹，后来创建了问题就解决了，执行完这一步就算安装成功了，这一步会在data下面生成数据库初始化的一些文件：
 
-![Alt path]('mysql_install_6.png')
+![Alt path](mysql_install_6.png)
 
 ### 3)启动数据库服务
 
 	 net start mysql
 
-![Alt path]('mysql_install_7.png')
+![Alt path](mysql_install_7.png)
 
 至此，mysql数据库安装成功。默认root是没有密码的。
 	
@@ -78,7 +78,7 @@ path中新增：
 
 回车，不用输入密码，直接登陆。  
 
-![Alt path]('mysql_install_8.png')
+![Alt path](mysql_install_8.png)
 
 
 
