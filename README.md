@@ -5,5 +5,6 @@
 操作系统:win10 
 mysql版本：<a href='https://cdn.mysql.com//Downloads/MySQL-5.7/mysql-5.7.18-winx64.zip'>v5.7.18解压版</a>
 
+##  3.<a href='docs/ftp_install.pdf'>ftp服务器搭建</a>
 	
-##  3.后续添加.............
+##  4.后续添加.............
